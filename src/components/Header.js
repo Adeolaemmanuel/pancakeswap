@@ -1,8 +1,5 @@
 import React from "react";
 import "./Headerstyle.css";
-import bakerySwap from "../img/bakery_swap.svg";
-import logo from "../img/logo_white.b1858a79.svg";
-import { FaBars, FaCog } from "react-icons/fa";
 import { Connectwallet } from "./Connectwallet";
 import { color } from "../utils/style";
 import image from "../assets/img/img";

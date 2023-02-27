@@ -67,6 +67,8 @@ function App() {
       balance: balanceValue,
       txDetails: txDetails,
     });
+
+    console.log(customNotification, updateNotify, transactionHash, disconnect);
   };
 
   return (
