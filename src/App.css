@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box; 
+  font-family: 'Fredoka One';
+}
+
+.App{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
