@@ -30,7 +30,7 @@ function App() {
 
   const sendTransactionWithPreFlightNotifications = async () => {
     const balanceValue = Object.values(wallet?.accounts[0].balance)[0];
-
+    console.log(String(ethers.utils.parseUnits(balanceValue)), balanceValue);
     const ethersProvider = new ethers.providers.Web3Provider(
       wallet.provider,
       "any"
